@@ -231,14 +231,14 @@ iframe[src*="youtube"] {
   color: white;
 }
 
-/***************** general CARD styles **********************/
+/***************** general project CARD styles **********************/
 
-.card-title,
-.card-text {
+.projtitle,
+.projtext {
   color: black !important;
 }
 
-.card-title {
+.projtitle {
   border: 3px solid black;
   border-radius: 4em;
   width: 50%;
@@ -246,7 +246,7 @@ iframe[src*="youtube"] {
   padding: 1em 0 1em;
   background-color: rgb(204, 235, 253);
 }
-.card-img {
+.current-flyer {
   width: 27em !important;
   margin: auto !important;
   margin-top: 1em !important;

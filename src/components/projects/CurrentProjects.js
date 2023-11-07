@@ -55,10 +55,10 @@ const CurrentProjects = (props) => {
               class="current-flyer img-thumbnail shadow-lg mb-5 bg-white rounded"
             />
             <Card.Body>
-              <Card.Title className="shadow mb-3">
+              <Card.Title className="projtitle shadow mb-3">
                 Beginners Workshop
               </Card.Title>
-              <Card.Text className="currentDesc p-2">
+              <Card.Text className="projtext currentDesc p-2">
                 Interested in app development? Improve on your critical thinking and programming skills by developing a wordle game in our beginners workshop.
                 <Collapse in={begOpen}>
                   <div>
@@ -118,8 +118,8 @@ const CurrentProjects = (props) => {
               class="current-flyer img-thumbnail shadow-lg mb-5 bg-white rounded"
             />
             <Card.Body>
-              <Card.Title className="shadow mb-3">Advanced Workshop</Card.Title>
-              <Card.Text className="currentDesc p-2">
+              <Card.Title className="projtitle shadow mb-3">Advanced Workshop</Card.Title>
+              <Card.Text className="projtext currentDesc p-2">
                 Interested in game development? In this advanced workshop series, we are
                 using C# and Unity game engine to create and implement a 2 dimensional plaform game.
                 <Collapse in={advOpen}>
